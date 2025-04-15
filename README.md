@@ -12,7 +12,7 @@
 | ORM  | Spring Data R2DBC |   |  505.2.0  | 506.0.0  |   |
 | 连接池  | HikariCP  |   | 505.2.0  | 506.0.0  |   |
 | 连接池  | Druid  |   | 505.2.0  | 506.0.0  |   |
-| 数据库工具  | Dbeaver  |   | 505.2.0  | 506.0.0 | [Dbeaver 连接 GaussDB 使用指南](./dbeaver/25.0/database-driver-gaussdb.md)  |
+| 数据库工具  | Dbeaver  |   | 505.2.0  | 506.0.0 | [Dbeaver 连接 GaussDB 使用指南](./dbeaver/25/database-driver-gaussdb.md)  |
 | 大数据软件  |  Flink |   | 505.2.0  | 506.0.0 |   |
 | 大数据软件  |  FlinkCDC |   | 505.2.0  | 506.0.0 |   |
 
