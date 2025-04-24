@@ -18,6 +18,8 @@
 
 # JDBC驱动
 
+> 需要使用JDK 17及其以上版本
+
 * maven
 
 ```xml
@@ -39,6 +41,8 @@ dependencies {
 ```
 
 # R2DBC驱动
+
+> 需要使用JDK 17及其以上版本
 
 ```xml
 <dependencies>
