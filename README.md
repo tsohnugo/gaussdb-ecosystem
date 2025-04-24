@@ -16,7 +16,7 @@
 | 大数据软件  |  Flink |   | 505.2.0  | 506.0.0 |   |
 | 大数据软件  |  FlinkCDC |   | 505.2.0  | 506.0.0 |   |
 
-# JDBC开源驱动
+# JDBC驱动
 
 * maven
 
@@ -37,4 +37,25 @@ dependencies {
     implementation 'com.huaweicloud.gaussdb:gaussdbjdbc:506.0.0.b058'
 }  
 ```
+
+# R2DBC驱动
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>com.huaweicloud.gaussdb</groupId>
+    <artifactId>gaussdb-r2dbc</artifactId>
+    <version>1.0.0.RC1</version>
+  </dependency>
+</dependencies>
+```
+
+* gradle
+
+```gradle
+dependencies {
+    implementation 'com.huaweicloud.gaussdb:gaussdb-r2dbc:1.0.0.RC1'
+}  
+```
+
 
