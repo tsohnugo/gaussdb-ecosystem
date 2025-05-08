@@ -50,13 +50,11 @@ MyBatis Spring Boot Starter已经包含了MyBatis 3.5.14版本。
 
 ## 连接GaussDB使用指南
 
-我们的开发示例使用MyBatis和GaussDB实现用户认证和鉴权功能。相关示例代码参考[gaussdb-examples](https://github.com/HuaweiCloudDeveloper/gaussdb-examples) 。
+我们的开发示例使用MyBatis和GaussDB实现用户认证和鉴权功能, 参考`动手试试`章节运行本示例。
 
-* 准备
+* 引入依赖
 
   开始之前，需要按照`相关技术组件介绍`引入相关软件包。
-
-  接下来，需要在数据库创建相关表。参考[建表脚本](https://github.com/HuaweiCloudDeveloper/gaussdb-examples/blob/master/authentication-server/src/main/resources/sql/user.sql)
 
 * 配置数据源
 
@@ -145,8 +143,14 @@ MyBatis Spring Boot Starter已经包含了MyBatis 3.5.14版本。
 
 [gaussdb-examples](https://github.com/HuaweiCloudDeveloper/gaussdb-examples) 是基于 ServiceComb Fence提供的示例. 
 
+* 下载代码
 
-  运行示例前，需要先安装Zookeeper和GaussDB。 个人开发者可以通过开源镜像安装Zookeeper和OpenGauss。
+  ```shell
+  git clone https://github.com/HuaweiCloudDeveloper/gaussdb-examples.git
+  git checkout -B MyBatis/3.5.x origin/MyBatis/3.5.x
+  ```
+
+运行示例前，需要先安装Zookeeper和GaussDB。 个人开发者可以通过开源镜像安装Zookeeper和OpenGauss。
 
 * docker安装OpenGauss
 
@@ -163,6 +167,8 @@ MyBatis Spring Boot Starter已经包含了MyBatis 3.5.14版本。
 
 * 建表
 
-  参考[建表脚本](https://github.com/HuaweiCloudDeveloper/gaussdb-examples/blob/master/authentication-server/src/main/resources/sql/user.sql)，可以使用DBeaver等数据库工具连接，并执行相关SQL语句。
+  参考[建表脚本](https://github.com/HuaweiCloudDeveloper/gaussdb-examples/tree/MyBatis/3.5.x/authentication-server/src/main/resources/sql/user.sql)，可以使用DBeaver等数据库工具连接，并执行相关SQL语句。
 
-参考[Java Chassis 3最佳实践（一）：Fence项目介绍](https://bbs.huaweicloud.com/blogs/433423) 运行示例。
+* 启动运行
+
+  参考[Java Chassis 3最佳实践（一）：Fence项目介绍](https://bbs.huaweicloud.com/blogs/433423) 或者[Open Source for Huawei Wiki](https://gitcode.com/HuaweiCloudDeveloper/OpenSourceForHuaweiWiki)的介绍运行示例。
