@@ -1,6 +1,6 @@
 本项目收集GaussDB开源软件生态的总体信息，包括支持的开源软件、版本以及存在的缺陷等。
 
-# 开源软件支持
+# 开源软件生态
 
 | 分类  | 开源软件  | 开源软件基线版本  | GaussDB内核基线版本  | 驱动基线版本  |  使用指南 |
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
@@ -16,54 +16,5 @@
 | 大数据软件  |  Flink |   | 505.2.0  | 506.0.0 |   |
 | 大数据软件  |  FlinkCDC |   | 505.2.0  | 506.0.0 |   |
 
-# JDBC驱动
-
-> 需要使用JDK 17及其以上版本
-
-* 连接串：jdbc:gaussdb://host:port/database
-
-* Driver名称： com.huawei.gaussdb.jdbc.Driver
-
-* maven
-
-```xml
-<dependencies>
-  <dependency>
-    <groupId>com.huaweicloud.gaussdb</groupId>
-    <artifactId>gaussdbjdbc</artifactId>
-    <version>506.0.0.b058</version>
-  </dependency>
-</dependencies>
-```
-
-* gradle
-
-```gradle
-dependencies {
-    implementation 'com.huaweicloud.gaussdb:gaussdbjdbc:506.0.0.b058'
-}  
-```
-
-# R2DBC驱动
-
-> 需要使用JDK 17及其以上版本
-
-```xml
-<dependencies>
-  <dependency>
-    <groupId>com.huaweicloud.gaussdb</groupId>
-    <artifactId>gaussdb-r2dbc</artifactId>
-    <version>1.0.0.RC1</version>
-  </dependency>
-</dependencies>
-```
-
-* gradle
-
-```gradle
-dependencies {
-    implementation 'com.huaweicloud.gaussdb:gaussdb-r2dbc:1.0.0.RC1'
-}  
-```
 
 
