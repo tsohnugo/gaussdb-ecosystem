@@ -10,7 +10,7 @@
 | ORM  | MyBatisPlus | 3.5.12  |  505.2.0  | 506.0.0  | [使用指南](./MyBatis-Plus/3.5.x/README.md)  |
 | ORM  | Hibernate |   |  505.2.0  | 506.0.0  |   |
 | ORM  | Spring Data JPA |   |  505.2.0  | 506.0.0  |   |
-| ORM  | Spring Data JDBC |   |  505.2.0  | 506.0.0  |   |
+| ORM  | Spring Data JDBC | 3.5.0-RC1  |  505.2.0  | 506.0.0  | [使用指南](./SpringDataJDBC/3.5.x/README.md)  |
 | ORM  | Spring Data R2DBC |   |  505.2.0  | 506.0.0  |   |
 | 连接池  | HikariCP  |   | 505.2.0  | 506.0.0  |   |
 | 连接池  | Druid  |   | 505.2.0  | 506.0.0  |   |
