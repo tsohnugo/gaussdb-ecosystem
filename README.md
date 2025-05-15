@@ -23,6 +23,6 @@
 
 
 * 可以通过 `select version()` 查询GaussDB版本信息。
+* 可以参考 [gaussdb-drivers](https://github.com/HuaweiCloudDeveloper/gaussdb-drivers) 进一步了解驱动信息。
 * 一般而言，如果基线版本是 `3.5.14`， 业务可以使用 `3.5.x` 任意版本；如果使用 `3.6.x` ，需要进一步验证；不建议用于 `3.4.x` 等老版本。 项目会逐步补齐不同版本的覆盖和验证，敬请期待。
-
 
