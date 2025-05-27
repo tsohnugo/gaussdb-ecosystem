@@ -48,7 +48,7 @@ Spring Data JPA可以方便的与Spring Boot集成，只需要引入依赖。
 
 ### Hibernate
 
-Spring Data JPA默认依赖Hibernate，本例子使用了Hibernate 7.0.0.Final版本：
+Spring Data JPA默认依赖Hibernate，本例子使用了Hibernate 6.6.15.Final版本：
 
   * maven
 
@@ -162,7 +162,7 @@ Spring Data JPA默认依赖Hibernate，本例子使用了Hibernate 7.0.0.Final�
 
   ```shell
   git clone https://github.com/HuaweiCloudDeveloper/gaussdb-examples.git
-  git checkout -B SpringDataJPA/3.4.x origin/SpringDataJPA/3.4.x
+  git checkout -B SpringDataJPA/3.3.x origin/SpringDataJPA/3.3.x
   ```
 
 运行示例前，需要先安装Zookeeper和GaussDB。 个人开发者可以通过开源镜像安装Zookeeper和OpenGauss。
@@ -182,7 +182,7 @@ Spring Data JPA默认依赖Hibernate，本例子使用了Hibernate 7.0.0.Final�
 
 * 建表
 
-  参考[建表脚本](https://github.com/HuaweiCloudDeveloper/gaussdb-examples/tree/SpringDataJPA/3.4.x/authentication-server/src/main/resources/sql/user.sql)，可以使用DBeaver等数据库工具连接，并执行相关SQL语句。
+  参考[建表脚本](https://github.com/HuaweiCloudDeveloper/gaussdb-examples/tree/SpringDataJPA/3.3.x/authentication-server/src/main/resources/sql/user.sql)，可以使用DBeaver等数据库工具连接，并执行相关SQL语句。
 
 * 启动运行
 
