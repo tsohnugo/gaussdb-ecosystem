@@ -2,6 +2,8 @@
 
 > ***如果发现项目能帮助到您，别忘了点击右上角`star`表示鼓励***
 
+> ***帮助提供信息：如果您在使用开源软件过程中发现不支持GaussDB的情况，欢迎[提交ISSUE](https://github.com/HuaweiCloudDeveloper/gaussdb-ecosystem/issues)。 您需要提供开源软件名称、使用的版本、存在的问题等信息，我们将结合您提供的信息，完善相关开源软件的支持。***
+
 # GaussDB开源软件生态
 
 | 分类    | 开源软件                  | 基线版本      | GaussDB基线版本  | 驱动基线版本  |  使用指南 |
