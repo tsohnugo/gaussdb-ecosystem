@@ -30,7 +30,7 @@ Quartz 是 Java 领域强大的开源作业调度框架。
   <dependency>
     <groupId>org.quartz-scheduler</groupId>
     <artifactId>quartz</artifactId>
-    <version>2.5.1-SNAPSHOT</version>
+    <version>2.5.0</version>
   </dependency>
   ```
 
