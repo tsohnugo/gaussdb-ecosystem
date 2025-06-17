@@ -56,7 +56,7 @@ org.quartz.threadPool.threadPriority = 5
 
 # 作业存储配置
 org.quartz.jobStore.class = org.quartz.impl.jdbcjobstore.JobStoreTX
-org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.GaussDBDelegate
 org.quartz.jobStore.useProperties = false
 org.quartz.jobStore.dataSource = myDS
 org.quartz.jobStore.tablePrefix = quartz.qrtz_
@@ -129,12 +129,12 @@ public class GaussDBQuartzDemo {
 ```
 
 ### 运行建表语句
-使用Postgresql的建表语句即可，在源码中也可以获取。
+使用GaussDB的建表语句，在源码中也可以获取。
 ```xml
 -- Thanks to Patrick Lightbody for submitting this...
 --
 -- In your Quartz properties file, you'll need to set 
--- org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+-- org.quartz.jobStore.driverDelegateClass = org.quartz.impl.jdbcjobstore.GaussDBDelegate
 
 DROP TABLE IF EXISTS QRTZ_FIRED_TRIGGERS;
 DROP TABLE IF EXISTS QRTZ_PAUSED_TRIGGER_GRPS;
