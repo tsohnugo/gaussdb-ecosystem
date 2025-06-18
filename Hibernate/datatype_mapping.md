@@ -1,6 +1,7 @@
 # Java 类型 ↔ Hibernate 类型 ↔ 数据库 SQL 类型
 
-下面是一个 **Java 类型 ↔ Hibernate 类型 ↔ GaussDB SQL 类型** 的对应表，涵盖了基本的类型映射关系（基于 Hibernate ORM 7 和 GaussDB）：
+下面是一个 **Java 类型 ↔ Hibernate 类型 ↔ GaussDB SQL 类型** 的对应表，涵盖了基本的类型映射关系（基于 Hibernate ORM 7 和
+GaussDB）：
 
 ---
 
@@ -39,6 +40,7 @@
 ---
 
 ### 关键说明：
+
 1. **时间类型**：
     - Java 8+ 的 `Instant` 默认映射到带时区的 `timestamp`
     - 传统 `java.sql.Timestamp` 映射到无时区版本
