@@ -42,7 +42,7 @@ Spring Data JDBC可以方便的与Spring Boot集成，只需要引入依赖。
             <artifactId>spring-boot-starter-logging</artifactId>
           </exclusion>
         </exclusions>
-        <version>3.5.1</version>
+        <version>3.4.5</version>
       </dependency>
     ```
 
@@ -62,7 +62,7 @@ Spring Data JDBC未包含GaussDB的Dialect，需要引入依赖：
             <artifactId>spring-boot-starter-logging</artifactId>
           </exclusion>
         </exclusions>
-        <version>3.5.0</version>
+        <version>3.4.0</version>
       </dependency>
     ```
 
@@ -164,7 +164,7 @@ Spring Data JDBC未包含GaussDB的Dialect，需要引入依赖：
 
   ```shell
   git clone https://github.com/HuaweiCloudDeveloper/gaussdb-examples.git
-  git checkout -B SpringDataJDBC/3.5.x origin/SpringDataJDBC/3.5.x
+  git checkout -B SpringDataJDBC/3.4.x origin/SpringDataJDBC/3.4.x
   ```
 
 运行示例前，需要先安装Zookeeper和GaussDB。 个人开发者可以通过开源镜像安装Zookeeper和OpenGauss。

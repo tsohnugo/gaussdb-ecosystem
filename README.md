@@ -17,8 +17,10 @@
 | ORM框架 | Java   | Spring Data JPA       | 3.3.12    |  505.2.0  | 506.0.0    | [使用指南](./SpringDataJPA/3.3.x/README.md)    |
 | ORM框架 | Java   | Hibernate             | 7.0.0     |  505.2.0  | 506.0.0    | [使用指南](./Hibernate/7.0.x/README.md)        |
 | ORM框架 | Java   | Hibernate             | 6.6.15    |  505.2.0  | 506.0.0    | [使用指南](./Hibernate/6.6.x/README.md)        |
-| ORM框架 | Java   | Spring Data JDBC      | 3.5.0-RC1 |  505.2.0  | 506.0.0    | [使用指南](./SpringDataJDBC/3.5.x/README.md)   |
-| ORM框架 | Java   | Spring Data R2DBC     | 3.5.0-RC1 |  505.2.0  | 1.0.0.RC1  | [使用指南](./SpringDataR2DBC/3.5.x/README.md)  |
+| ORM框架 | Java   | Spring Data JDBC      | 3.5.1 |  505.2.0  | 506.0.0    | [使用指南](./SpringDataJDBC/3.5.x/README.md)   |
+| ORM框架 | Java   | Spring Data JDBC      | 3.4.5 |  505.2.0  | 506.0.0    | [使用指南](./SpringDataJDBC/3.4.x/README.md)   |
+| ORM框架 | Java   | Spring Data R2DBC     | 3.5.1 |  505.2.0  | 1.0.0.RC1  | [使用指南](./SpringDataR2DBC/3.5.x/README.md)  |
+| ORM框架 | Java   | Spring Data R2DBC     | 3.4.5 |  505.2.0  | 1.0.0.RC1  | [使用指南](./SpringDataR2DBC/3.4.x/README.md)  |
 | ORM框架 | Go   | GORM     | v1.30.0   |  505.2.0  | v1.0.0-rc1 | [使用指南](./GORM/v1.30.0/README.md)           |
 | ORM框架 | Go   | Ent     |           |    |            |                                            |
 | ORM框架 | .Net   | Entity Framework Core     |           |    |            |                                            |
