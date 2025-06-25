@@ -35,7 +35,7 @@
 | ORM框架 | PHP   | CakePHP     |           |    |            |                                            |
 | 开发框架 | 连接池   | HikariCP              | 5.1.0     | 505.2.0  | 506.0.0    | [使用指南](./HikariCP/5.1.x/README.md)         |
 | 开发框架 | 连接池   | Druid                 | 1.2.23    | 505.2.0  | 506.0.0    | [使用指南](./Druid/1.2.x/README.md)            |
-| 开发框架 | 定时任务 | Quartz            |           |   |            |                                            |
+| 开发框架 | 定时任务 | Quartz            |  2.5.0    | 505.2.0  |    506.0.0  | [使用指南](./Quartz/2.5.0/README.md)      |
 | 数据库工具 | 客户端 | DBeaver               |           | 505.2.0  | 506.0.0    | [使用指南](./DBeaver/25.0.x/README.md)         |
 | 数据库工具 | 监控运维 | Apache SkyWalking               |           |  |            |                                            |
 | 数据库工具 | ETL | Addx              |           |  |            |                                            |

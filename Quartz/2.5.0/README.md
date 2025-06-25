@@ -36,7 +36,7 @@ Quartz 是 Java 领域强大的开源作业调度框架。
   <dependency>
     <groupId>com.huaweicloud.gaussdb</groupId>
     <artifactId>gaussdb-quartz</artifactId>
-    <version>2.5.0-SNAPSHOT</version>
+    <version>2.5.0</version>
   </dependency>
   ```
 
