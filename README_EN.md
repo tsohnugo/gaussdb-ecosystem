@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-    <a href="README_ZH.md"><strong>简体中文</strong></a> | <strong>English</strong>
+    <a href="README.md"><strong>简体中文</strong></a> | <strong>English</strong>
   </p>
 This project aggregates comprehensive information about the GaussDB open-source ecosystem, including supported open-source software, version compatibility, and usage guidelines.
 
