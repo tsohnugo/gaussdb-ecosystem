@@ -13,7 +13,7 @@ This guide provides instructions on setting up and using GaussDB within DBeaver.
 DBeaver provides extensive support for GaussDB but may not cover all possible features. If DBeaver lacks a feature you need, please submit a request via our [GitHub page](https://github.com/dbeaver/dbeaver/issues/new/choose). If you are a developer, you may choose to enhance DBeaver's functionality by contributing your own code. For guidance on how to do this, see our [Contribution Guide](https://dbeaver.com/docs/dbeaver/Contribute-your-code/). Before starting, you must create a connection in DBeaver and select GaussDB. If you haven't done this yet, please refer to our [Database Connections](https://dbeaver.com/docs/dbeaver/Create-Connection/) article.
 DBeaver uses dedicated drivers to interact with GaussDB servers; you must select the appropriate driver in the "Connect to Database" dialog.
 
-![](/imgs/img.png)
+![](./imgs/img.png)
 
 ## 2 Configuration  
 This section outlines settings for establishing **direct connections** in DBeaver, configuring secure connections via **SSH/Proxy**, and JDBC driver setup **specifically for GaussDB**.  
