@@ -1,3 +1,8 @@
+<p align="center">
+  <p align="center">
+    <a href="README_EN.md"><strong>English</strong></a> | <strong>简体中文</strong>
+  </p>
+
 # 数据库驱动程序 GaussDB
 
 ## 1 概述
