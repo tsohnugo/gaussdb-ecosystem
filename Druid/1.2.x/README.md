@@ -1,3 +1,8 @@
+<p align="center">
+  <p align="center">
+    <a href="README_EN.md"><strong>English</strong></a> | <strong>简体中文</strong>
+  </p>
+
 # Druid连接GaussDB使用指南
 
 Druid 是一个 JDBC 组件库，包含数据库连接池、SQL Parser 等组件.
